@@ -1,0 +1,29 @@
+<!DOCTYPE html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+	<head>
+		<title> new document </title>
+		<meta name="generator" content="editplus">
+		<meta name="author" content="">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			var fullname = 'out';
+			var obj = {
+				fullname: 'in',
+				prop: {
+					fullname: 'inner',
+					getFullname: function() {
+						return this.fullname;
+					}
+				}
+			};
+			console.log(obj.prop.getFullname());
+			var test = obj.prop.getFullname;
+			console.log(test());
+			console.log(test.call(obj));
+		</script>
+	</body>
+</html>

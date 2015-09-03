@@ -1,0 +1,47 @@
+http://www.toptal.com/javascript/interview-questions
+http://www.programmerinterview.com/index.php/javascript/how-to-print-a-javascript-object/
+http://techpreparation.com/javascript-interview-questions-answers1.htm#.VefkU_aqqko
+http://www.thatjsdude.com/interview/js2.html
+http://www.thatjsdude.com/interview/js1.html
+http://blog.mikota.cz/2013/06/fun-with-javascript-arrays.html
+https://css-tricks.com/examples/ImageReplacement/iew
+http://www.sitepoint.com/5-typical-javascript-interview-exercises/
+http://programmers.stackexchange.com/questions/148213/how-can-i-evaluate-a-candidates-knowledge-of-html-css-during-an-intervie
+http://www.sitepoint.com/10-typical-html-interview-exercises/
+http://www.sitepoint.com/5-javascript-interview-exercises/
+
+
+A modern, HTML5-ready alternative to CSS resets
+Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizi
+
+<html>
+<head><TITLE></TITLE>
+<script language="JavaScript">
+var a=prompt("Enter a value");
+var b,sum=0;
+var z=a;
+while(a>0)
+{
+b=a%10;
+sum=sum*10+b;
+a=parseInt(a/10);
+}
+alert(sum);
+</script>
+</head>
+<body></body>
+</html>
+
+CSS box model. Margins, padding, etc. IE model vs. W3C model. How can one switch between the two? What are their benefits and drawbacks?
+CSS positioning. What does it mean for an element to be "in the flow" and "out of the flow"
+inline-block and other display values. Difference between display: none; and visibility: hidden; (this is a good and easy question for people new to CSS)
+inline-block vs float for layouts.
+Selectors.
+CSS resets. Why they are needed and what they accomplish?
+Media-queries and responsive design.
+How to organize styles and how to keep the number of selectors small. LESS, Sass and other CSS pre-processors. Object-Oriented CSS.
+And some questions about HTML:
+
+Doctype and browser modes.
+Why are some tags more preferable than the others (em vs i for example)?
+What are the basic principles one should follow to keep HTML and CSS manageable and easy to maintain?
